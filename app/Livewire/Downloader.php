@@ -10,11 +10,9 @@ use PhpOffice\PhpPresentation\Shape\Drawing;
 use PhpOffice\PhpPresentation\IOFactory;
 use Illuminate\Support\Facades\Log;
 
-
 class Downloader extends Component
 {
     public $url;
-    public $increment = 'a';
     public $isLoading = false;
 
     public function render()
@@ -67,7 +65,7 @@ class Downloader extends Component
 
         $this->url = '';
         $this->isLoading = false;
-        
+
         return $respone;
     }
 

@@ -1,5 +1,5 @@
 <div class="mt-2">
-    <input id="input-link" wire:model="url" type="text" class="w-full rounded-md p-2 bg-gray-200 text-gray-800 focus:border-yellow-600" placeholder="enter link here ">
+    <input id="input-link" wire:model="url" type="text" class="w-full rounded-md p-2 bg-gray-200 text-gray-800 focus:border-yellow-600" placeholder="enter slideshare link here ">
     @error('url')
         <p class="text-red-600 mt-2">{{ $message }}</p>
     @enderror
@@ -12,8 +12,6 @@
                 class="col-span-1 bg-gray-600 text-gray-100 font-semibold p-2 rounded-md mt-2">
                     Download 
         </button>
-
-        
     </div>
 
     <div wire:loading>
