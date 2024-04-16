@@ -11,7 +11,7 @@
     </head>
     <body class="antialiased relative bg-gray-800 text-gray-100 py-2 md:py-4 px-2 md:px-4 flex justify-center items-center h-screen">
         <header class="absolute top-4 right-2">
-        <a href="https://github.com/maviism" class="text-sm font-semibold bg-gray-600 rounded-md p-2 "><img src="assets/icon-github.png" alt="" width="22px" class="inline-block mr-1"> maviism</a>
+        <a href="https://github.com/Maviism/slideshare-downloader.git" class="text-sm font-semibold bg-gray-600 rounded-md p-2 "><img src="assets/icon-github.png" alt="" width="22px" class="inline-block mr-1"> maviism</a>
         </header>
         <main>
             <div>
